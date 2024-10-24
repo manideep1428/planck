@@ -1,26 +1,13 @@
 import React from "react";
-import { Navbar } from "../navbar/Navbar";
-import { dataOf2ndPage } from "../../lib/utils";
 
 const Hero = () => {
   return (
     <>
-<<<<<<< HEAD
       <div className="bg-[#000f0c]">
         <div className="relative  w-[100%] h-[130vh]  flex justify-center">
           <img
             className="absolute h-[100vh] sm:flex hidden lg:h-[130vh] md:w-[100vw]"
             src="/public/assets/Images/Hero_Background Image.png"
-=======
-      <div>
-        <div>
-          <Navbar/>
-        </div>
-        <div className="relative bg-[#000f0c] w-[100%] h-[1000px] lg:h-[130vh] flex justify-center">
-          <img
-            className="absolute h-[100vh] lg:h-[130vh] md:w-[100vw]"
-            src="/assets/Images/Hero_Background Image.png"
->>>>>>> main
             alt=""
           />
           <div className="z-10 absolute flex flex-col items-center mt-[177px]">
